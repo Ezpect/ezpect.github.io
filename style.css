@@ -16,7 +16,6 @@ body {
 main{
     width:  100vw;
     height: 100vh;
-    background-color: blueviolet;
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
