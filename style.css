@@ -28,8 +28,9 @@ main{
 
 }
 #top{
-    height: 10%;
-    background-color: green;
+    height: 20%;
+    background-image: url(marvel.gif);
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,7 @@ main{
 }
 
 #refresh-button{
-    background-color: green;
+    background-color: black;
     position: absolute;
     left: 0%;
     margin-left: 1rem;
@@ -50,17 +51,20 @@ main{
     width: 4rem;
     transition: 500ms;
     cursor: pointer;
+    fill: white;
 }
 #refresh:hover{
     transform: rotate(360deg);
 }
 #middle{
-    height: 80%;
-    background-color: brown;
+    height: 60%;
+    background-image: url(SlipperyHelpfulFrenchbulldog-size_restricted.gif);
+    background-position: center;
     display: flex;
     gap: 0.5em;
     align-items: center;
     padding: 0 1em;
+    
 }
 
 .array {
@@ -86,7 +90,7 @@ main{
 
 }
 #bottom{
-    height: 10%;
+    height: 20%;
     background-color: black;
     display: flex;
     justify-content: space-evenly;
