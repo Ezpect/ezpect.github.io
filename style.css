@@ -71,12 +71,12 @@ main{
     flex-direction: column-reverse;
     justify-content: space-evenly;
     gap: 0.5em;
-    background-color: blueviolet;
+    background-color: white;
     height: 85%;
     padding: 0 0.5em;
 }
 .box {
-    background-color: chartreuse;
+    background-color: red;
     height: 5rem;
     width: 5rem;
     display: flex;
